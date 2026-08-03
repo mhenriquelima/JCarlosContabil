@@ -1,0 +1,53 @@
+# ==========================================
+# Python Core & Bytecode
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Virtual Environments & Dependencies
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==========================================
+# Django Specific
+# ==========================================
+# Ignore local databases
+*.sqlite3
+
+# Ignore user-uploaded media files
+media/
+
+# Ignore collected static assets (uncomment if you collect assets locally for production)
+# static/
+
+# Ignore local system-specific log files
+*.log
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.[a-zA-Z]*
+!.env.example
+
+# ==========================================
+# IDE & System Files
+# ==========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
+Thumbs.db
